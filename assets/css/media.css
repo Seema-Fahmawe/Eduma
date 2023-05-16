@@ -1,0 +1,123 @@
+@media (max-width:1326px) {
+    header .carousel-caption .carousel-item h5 {
+        font-size: 17px !important;
+    }
+
+    header .left i {
+        font-size: 40px;
+        line-height: 2;
+    }
+
+    header .right h3 {
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width:991px) {
+    .container {
+        max-width: 925px;
+    }
+
+    .navbar .nav-link .fa-solid {
+        display: none;
+    }
+
+    header .carousel-control-next,
+    header .carousel-control-prev {
+        display: none;
+    }
+
+
+    .events .itemEvents .date::after {
+        display: none;
+    }
+
+    .testimonials .carousel_03 {
+        width: 60% !important;
+    }
+
+}
+
+@media (max-width:767px) {
+    header .carousel-caption {
+        top: 40%;
+    }
+
+    header .carousel-inner .carousel-item h3 {
+        font-size: 30px !important;
+    }
+
+    header .items {
+        position: unset;
+    }
+
+    header .item {
+        background-color: #000;
+        padding-left: 15px;
+    }
+
+    header .items .col-lg-4 {
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .testimonials .item img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .testimonials .carousel_03 .owl-item.active.center .item::after {
+        width: 33px;
+        height: 33px;
+    }
+
+    .testimonials .carousel_03 .owl-item.active.center .item::before {
+        width: 18px;
+        height: 18px;
+        line-height: 18px;
+        font-size: 10px;
+    }
+}
+
+@media (max-width:575px) {
+    .events .itemEvents .date span {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .events .itemEvents .date p {
+        font-size: 0.85rem;
+    }
+
+    .events .date {
+        padding-bottom: 0px;
+        background-color: #fff;
+        width: 20%;
+        text-align: center;
+        padding-top: 8px;
+    }
+
+    .events .event {
+        position: absolute;
+        top: 35px;
+        left: 10px;
+    }
+
+    .testimonials .carousel_04 {
+        width: 100% !important;
+    }
+
+}
+
+@media (max-width:425px) {
+    .testimonials .carousel_03 {
+        width: 80% !important;
+    }
+}
+
+@media(max-width:390px) {
+    .events .date {
+        width: 25%;
+    }
+}
